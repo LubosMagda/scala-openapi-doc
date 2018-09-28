@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+#
+# GET /end/point controllers.XxxController.methodName()
+#
+# ->  /sub       info.Routes
+#
+
+GET     /openapi/json       controllers.DocumentationController.json
