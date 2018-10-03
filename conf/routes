@@ -8,4 +8,5 @@
 # ->  /sub       info.Routes
 #
 
-GET     /openapi/json       controllers.DocumentationController.json
+GET     /openapi/json           controllers.DocumentationController.json(id: String = null)
+GET     /openapi/:id/json       controllers.DocumentationController.json(id: String)
